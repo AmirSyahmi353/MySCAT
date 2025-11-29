@@ -21,7 +21,8 @@ class DashboardController extends Controller
             'normalCount',
             'highCount',
             'recentCount',
-            'recentPatients'
+            'recentPatients',
+            'test',
         ));
     }
 }

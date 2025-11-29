@@ -12,7 +12,7 @@
 
         <div>
             <h1 class="h4 text-dark fw-bold mb-1">
-                Welcome to the Dietitian Dashboard, {{ Str::ucfirst(Auth::user()->name) ?? 'Dietitian' }}!
+                hi to the Dietitian Dashboard, {{ Str::ucfirst(Auth::user()->name) ?? 'Dietitian' }}!
             </h1>
 
             <p class="text-muted mb-0">

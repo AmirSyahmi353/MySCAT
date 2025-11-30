@@ -49,6 +49,14 @@
             </a>
         </li>
 
+        @if ($role == 'admin')
+            <li>
+                <a href="/patients" class="nav-link">
+                    <i class="bi bi-people-fill me-2"></i> Registration
+                </a>
+            </li>
+        @endif
+
     </ul>
 
     <!-- Logout Button -->
